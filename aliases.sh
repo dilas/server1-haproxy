@@ -1,0 +1,6 @@
+alias s1="java -jar target/server1-haproxy-jar-with-dependencies.jar 5001"
+alias s2="java -jar target/server1-haproxy-jar-with-dependencies.jar 5002"
+alias s3="java -jar target/server1-haproxy-jar-with-dependencies.jar 5003"
+alias rb="mvn clean package"
+alias hcf="haproxy -f haproxy.cfg -c"
+alias hap="haproxy -f haproxy.cfg"
